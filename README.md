@@ -1,5 +1,5 @@
  Exception-Handling
- 
+ Question 1
   Create a user-defined checked exception called InsufficientFundsException. 
 Create a class called Account with 2 fields: 
 accountNumber: String 
@@ -15,3 +15,17 @@ Create the Account class object by passing the Account number and minimum balanc
 If you have a balance in your account, you have to withdraw the amount by invoking the withdraw() method by passing a suitable amount as an argument. But, if your requested amount is more than the available balance, handle the exception and print the proper message. 
 Note: make sure the application should be terminated normally. 
 
+Question 2
+
+ Handle exceptions in the number Problem statement: 
+Get the input String from the user and parse it to an integer, if it is not a number it will throw NumberFormatException, Catch this exception and print "Entered input is not a valid format for an integer." or else print the square of that number. (Refer to Sample Input and Output). 
+
+Sample input and output 
+1: Enter an integer: 12 
+The square value is 144 
+The work has been done successfully 
+
+Sample input and output 2: 
+Enter an integer: Java 
+Entered input is not a valid format for an integer. 
+The work has been done successfully 
