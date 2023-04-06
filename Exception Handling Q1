@@ -55,10 +55,12 @@ public class Account {
 
 	}
 	
+	
+	
 
-               import java.util.Scanner;
+        import java.util.Scanner;
 
-               public class AccountDemo {
+        public class AccountDemo {
 	
 	       public static void main(String[] args) {
 
