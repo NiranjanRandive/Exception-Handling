@@ -1,6 +1,7 @@
  Exception-Handling
- Question 1
-  Create a user-defined checked exception called InsufficientFundsException. 
+ 
+Question 1
+Create a user-defined checked exception called InsufficientFundsException. 
 Create a class called Account with 2 fields: 
 accountNumber: String 
 balance: double 
