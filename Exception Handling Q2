@@ -1,0 +1,38 @@
+package com.assignments;
+
+import java.util.Scanner;
+
+public class Exception {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter an Integer");
+		
+		
+		
+		String inputString = sc.nextLine();
+		
+		
+		try {
+			
+			int number = Integer.parseInt(inputString);
+			int square = number*number;
+			
+			System.out.println("The square value is " + square);
+			
+				
+		} catch (NumberFormatException e) {
+			
+			System.out.println("Entered Input is a not valid format for an integer ");
+			
+			
+			
+		}
+		
+		
+		   System.out.println("The work has been done sucessfully ");	
+	}
+
+}
