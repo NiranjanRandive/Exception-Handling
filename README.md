@@ -30,3 +30,9 @@ Sample input and output 2:
 Enter an integer: Java 
 Entered input is not a valid format for an integer. 
 The work has been done successfully 
+
+
+
+Question 3
+
+Write a program that accepts 2 integers a and b as input and finds the quotient of a/b. This program may generate an Arithmetic Exception. Use exception handling mechanisms to handle this exception. In the catch block, print the message as shown in the sample output. also, illustrate the use of the finally block. Print the message “Inside finally block” 
