@@ -1,0 +1,37 @@
+package com.assignments;
+
+import java.util.Scanner;
+
+public class DivideByZeroExceptionHandling {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter A ");
+		int a = sc.nextInt();
+		
+		System.out.println("Enter B ");
+		int b = sc.nextInt();
+		
+		
+		try {
+			
+			int quotient = a/b;
+			
+			System.out.println("Quotient = " + quotient);
+			
+			
+			
+		} catch (ArithmeticException e) {
+			
+			System.out.println("Error: Cannot Divide By Zero");
+				
+		}
+		
+		finally {
+			System.out.println("Inside Finally Block");
+		}
+	}
+
+}
